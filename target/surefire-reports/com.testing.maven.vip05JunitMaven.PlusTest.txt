@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.testing.maven.vip05JunitMaven.PlusTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE! - in com.testing.maven.vip05JunitMaven.PlusTest
+test[左边界-1](com.testing.maven.vip05JunitMaven.PlusTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[-2147483649]> but was:<[2147483647]>
+	at com.testing.maven.vip05JunitMaven.PlusTest.test(PlusTest.java:45)
+
+doubleTest[左边界+0](com.testing.maven.vip05JunitMaven.PlusTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.junit.ComparisonFailure: 测试结果 expected:<5.[0]> but was:<5.[1]>
+	at com.testing.maven.vip05JunitMaven.PlusTest.doubleTest(PlusTest.java:52)
+
